@@ -408,3 +408,146 @@ footer {
 .f-right ul li:nth-child(5) a {
   background-position: -240px;
 }
+
+/* Start CSS Mobile */
+
+@media only screen and (max-width: 1200px) {
+  /* Your code CSS */
+}
+
+@media only screen and (max-width: 996px) {
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 576px) {
+  .menu {
+    display: none;
+  }
+  header .logo {
+    width: 75%;
+  }
+
+  header .logo a {
+    text-indent: 15px;
+    display: block;
+  }
+
+  #slider,
+  .slider-item {
+    height: auto;
+  }
+
+  .slider-item h2 {
+    top: 55px;
+    left: 10px;
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+  }
+
+  ul.product-list li.introduce {
+    width: 100%;
+    align-items: center;
+  }
+
+  #best-seller {
+    margin-top: 20px;
+  }
+
+  ul.product-list li {
+    width: 50%;
+  }
+
+  ul.product-list li p {
+    max-width: 80%;
+    text-align: center;
+  }
+
+  ul.product-list li img {
+    max-width: 98%;
+  }
+
+  ul.product-list {
+    justify-content: flex-end;
+  }
+
+  ul.product-list li {
+    width: 50%;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  ul.product-list div.buy {
+    right: 5px;
+  }
+
+  /* Shipping */
+  #shipping {
+    padding: 20px 0;
+  }
+
+  #shipping ul {
+    flex-wrap: wrap;
+  }
+
+  #shipping ul li {
+    width: 50%;
+    min-height: 100px;
+  }
+
+  #shipping ul li:nth-child(3) img {
+    margin-bottom: 15px;
+  }
+
+  /* Promotion */
+  #promotion ul {
+    flex-direction: column;
+  }
+
+  #promotion ul li {
+    width: 100%;
+  }
+
+  /* Brands */
+  #brands {
+    flex-direction: column;
+  }
+
+  .discount,
+  .brands {
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+  }
+
+  #brands .discount form button {
+    min-width: 300px;
+    margin-top: 10px;
+  }
+
+  .brands ul {
+    flex-wrap: wrap;
+  }
+
+  /* Footer */
+  footer {
+    flex-direction: column;
+  }
+  footer div {
+    width: 100% !important;
+  }
+
+  .f-left {
+    height: 50px;
+    line-height: 50px;
+  }
+
+  .f-right {
+    margin-top: 10px;
+    padding-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+}
